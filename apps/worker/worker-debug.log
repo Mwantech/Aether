@@ -1,0 +1,325 @@
+[2025-11-28T19:02:08.848Z] Worker started listening for jobs...
+[2025-11-28T19:20:29.125Z] Worker started listening for jobs (v3). Config: 127.0.0.1
+[2025-11-28T19:20:29.237Z] Worker is ready and connected to Redis at 127.0.0.1:6379
+[2025-11-28T19:20:29.388Z] [c40b41c8-c7aa-4198-97e5-a322def06eae] Starting build job...
+[2025-11-28T19:20:29.391Z] [c40b41c8-c7aa-4198-97e5-a322def06eae] Cloning https://github.com/Mwantech/baraakat#main...
+[2025-11-28T19:20:32.401Z] [c40b41c8-c7aa-4198-97e5-a322def06eae] Detected project type: node (vite)
+[2025-11-28T19:20:32.407Z] [c40b41c8-c7aa-4198-97e5-a322def06eae] Installing dependencies for node project...
+[2025-11-28T19:20:32.426Z] [c40b41c8-c7aa-4198-97e5-a322def06eae] Running npm install...
+[2025-11-28T19:21:06.180Z] [c40b41c8-c7aa-4198-97e5-a322def06eae] 
+added 268 packages, and audited 269 packages in 33s
+
+37 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (3 low, 3 moderate, 3 high, 1 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+[2025-11-28T19:21:06.200Z] [c40b41c8-c7aa-4198-97e5-a322def06eae] Building node project...
+[2025-11-28T19:21:06.206Z] [c40b41c8-c7aa-4198-97e5-a322def06eae] Running npm run build...
+[2025-11-28T19:21:34.046Z] [c40b41c8-c7aa-4198-97e5-a322def06eae] 
+> barakaat-hospital-system@0.0.0 build
+> vite build
+
+[36mvite v6.2.0 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 2706 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m    0.47 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
+[2mdist/[22m[35massets/index-DqePUzE2.css  [39m[1m[2m  167.92 kB[22m[1m[22m[2m │ gzip:  29.66 kB[22m
+[2mdist/[22m[36massets/index-DlD39gSO.js   [39m[1m[33m1,081.84 kB[39m[22m[2m │ gzip: 310.23 kB[22m
+[32m✓ built in 25.16s[39m
+
+[2025-11-28T19:21:34.050Z] [c40b41c8-c7aa-4198-97e5-a322def06eae] 
+../../assets/images/hospital-interior.jpg referenced in ../../assets/images/hospital-interior.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../../assets/images/hospital-building.jpg referenced in ../../assets/images/hospital-building.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+[33m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+
+[2025-11-28T19:21:34.054Z] [c40b41c8-c7aa-4198-97e5-a322def06eae] Deploying to C:\Users\USER\Desktop\NextVijo\Aether\deployments\32dc8bfe-1258-4894-be68-9a7d7a32cc5d...
+[2025-11-28T19:21:34.114Z] [c40b41c8-c7aa-4198-97e5-a322def06eae] Deployment artifacts copied successfully.
+[2025-11-28T19:21:34.396Z] [c40b41c8-c7aa-4198-97e5-a322def06eae] Build failed: Request failed with status code 404
+[2025-11-28T19:21:39.913Z] Job 3 failed: Request failed with status code 404
+[2025-11-28T19:21:39.996Z] [b5cff7be-05af-48f1-b54b-c43caef6df0d] Starting build job...
+[2025-11-28T19:21:40.012Z] [b5cff7be-05af-48f1-b54b-c43caef6df0d] Cloning https://github.com/Mwantech/baraakat#main...
+[2025-11-28T19:21:42.892Z] [b5cff7be-05af-48f1-b54b-c43caef6df0d] Detected project type: node (vite)
+[2025-11-28T19:21:42.894Z] [b5cff7be-05af-48f1-b54b-c43caef6df0d] Installing dependencies for node project...
+[2025-11-28T19:21:42.896Z] [b5cff7be-05af-48f1-b54b-c43caef6df0d] Running npm install...
+[2025-11-28T19:22:19.332Z] [b5cff7be-05af-48f1-b54b-c43caef6df0d] 
+added 268 packages, and audited 269 packages in 35s
+
+37 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (3 low, 3 moderate, 3 high, 1 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+[2025-11-28T19:22:19.333Z] [b5cff7be-05af-48f1-b54b-c43caef6df0d] Building node project...
+[2025-11-28T19:22:19.335Z] [b5cff7be-05af-48f1-b54b-c43caef6df0d] Running npm run build...
+[2025-11-28T19:22:49.733Z] [b5cff7be-05af-48f1-b54b-c43caef6df0d] 
+> barakaat-hospital-system@0.0.0 build
+> vite build
+
+[36mvite v6.2.0 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 2706 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m    0.47 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
+[2mdist/[22m[35massets/index-DqePUzE2.css  [39m[1m[2m  167.92 kB[22m[1m[22m[2m │ gzip:  29.66 kB[22m
+[2mdist/[22m[36massets/index-DlD39gSO.js   [39m[1m[33m1,081.84 kB[39m[22m[2m │ gzip: 310.23 kB[22m
+[32m✓ built in 28.06s[39m
+
+[2025-11-28T19:22:49.735Z] [b5cff7be-05af-48f1-b54b-c43caef6df0d] 
+../../assets/images/hospital-interior.jpg referenced in ../../assets/images/hospital-interior.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../../assets/images/hospital-building.jpg referenced in ../../assets/images/hospital-building.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+[33m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+
+[2025-11-28T19:22:49.737Z] [b5cff7be-05af-48f1-b54b-c43caef6df0d] Deploying to C:\Users\USER\Desktop\NextVijo\Aether\deployments\8d5d0140-2e86-4059-992a-bfeaa29230c1...
+[2025-11-28T19:22:49.784Z] [b5cff7be-05af-48f1-b54b-c43caef6df0d] Deployment artifacts copied successfully.
+[2025-11-28T19:22:49.808Z] [b5cff7be-05af-48f1-b54b-c43caef6df0d] Build failed: Request failed with status code 404
+[2025-11-28T19:22:54.754Z] Job 4 failed: Request failed with status code 404
+[2025-11-28T19:24:19.757Z] Worker started listening for jobs (v3). Config: 127.0.0.1
+[2025-11-28T19:24:19.830Z] Worker is ready and connected to Redis at 127.0.0.1:6379
+[2025-11-28T19:25:43.382Z] [231b5995-fc42-4445-82db-20caa96ad6b7] Starting build job...
+[2025-11-28T19:25:43.387Z] [231b5995-fc42-4445-82db-20caa96ad6b7] Cloning https://github.com/Mwantech/baraakat#main...
+[2025-11-28T19:25:46.439Z] [231b5995-fc42-4445-82db-20caa96ad6b7] Detected project type: node (vite)
+[2025-11-28T19:25:46.465Z] [231b5995-fc42-4445-82db-20caa96ad6b7] Installing dependencies for node project...
+[2025-11-28T19:25:46.469Z] [231b5995-fc42-4445-82db-20caa96ad6b7] Running npm install...
+[2025-11-28T19:26:24.786Z] [231b5995-fc42-4445-82db-20caa96ad6b7] 
+added 268 packages, and audited 269 packages in 37s
+
+37 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (3 low, 3 moderate, 3 high, 1 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+[2025-11-28T19:26:24.787Z] [231b5995-fc42-4445-82db-20caa96ad6b7] Building node project...
+[2025-11-28T19:26:24.788Z] [231b5995-fc42-4445-82db-20caa96ad6b7] Running npm run build...
+[2025-11-28T19:26:51.487Z] [231b5995-fc42-4445-82db-20caa96ad6b7] 
+> barakaat-hospital-system@0.0.0 build
+> vite build
+
+[36mvite v6.2.0 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 2706 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m    0.47 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
+[2mdist/[22m[35massets/index-DqePUzE2.css  [39m[1m[2m  167.92 kB[22m[1m[22m[2m │ gzip:  29.66 kB[22m
+[2mdist/[22m[36massets/index-DlD39gSO.js   [39m[1m[33m1,081.84 kB[39m[22m[2m │ gzip: 310.23 kB[22m
+[32m✓ built in 24.25s[39m
+
+[2025-11-28T19:26:51.489Z] [231b5995-fc42-4445-82db-20caa96ad6b7] 
+../../assets/images/hospital-interior.jpg referenced in ../../assets/images/hospital-interior.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../../assets/images/hospital-building.jpg referenced in ../../assets/images/hospital-building.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+[33m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+
+[2025-11-28T19:26:51.491Z] [231b5995-fc42-4445-82db-20caa96ad6b7] Deploying to C:\Users\USER\Desktop\NextVijo\Aether\deployments\8d5d0140-2e86-4059-992a-bfeaa29230c1...
+[2025-11-28T19:26:51.900Z] [231b5995-fc42-4445-82db-20caa96ad6b7] Deployment artifacts copied successfully.
+[2025-11-28T19:26:52.427Z] [231b5995-fc42-4445-82db-20caa96ad6b7] Build failed: Request failed with status code 403
+[2025-11-28T19:26:57.068Z] Job 5 failed: Request failed with status code 403
+[2025-11-28T19:29:29.451Z] Worker started listening for jobs (v3). Config: 127.0.0.1
+[2025-11-28T19:29:29.500Z] Worker is ready and connected to Redis at 127.0.0.1:6379
+[2025-11-28T19:29:36.596Z] [d7b9cc03-6ea4-498f-9de1-7844063040ce] Starting build job...
+[2025-11-28T19:29:36.599Z] [d7b9cc03-6ea4-498f-9de1-7844063040ce] Cloning https://github.com/Mwantech/baraakat#main...
+[2025-11-28T19:29:39.134Z] [d7b9cc03-6ea4-498f-9de1-7844063040ce] Detected project type: node (vite)
+[2025-11-28T19:29:39.145Z] [d7b9cc03-6ea4-498f-9de1-7844063040ce] Installing dependencies for node project...
+[2025-11-28T19:29:39.148Z] [d7b9cc03-6ea4-498f-9de1-7844063040ce] Running npm install...
+[2025-11-28T19:30:03.599Z] [d7b9cc03-6ea4-498f-9de1-7844063040ce] 
+added 268 packages, and audited 269 packages in 23s
+
+37 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (3 low, 3 moderate, 3 high, 1 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+[2025-11-28T19:30:03.600Z] [d7b9cc03-6ea4-498f-9de1-7844063040ce] Building node project...
+[2025-11-28T19:30:03.603Z] [d7b9cc03-6ea4-498f-9de1-7844063040ce] Running npm run build...
+[2025-11-28T19:30:19.799Z] [d7b9cc03-6ea4-498f-9de1-7844063040ce] 
+> barakaat-hospital-system@0.0.0 build
+> vite build
+
+[36mvite v6.2.0 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 2706 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m    0.47 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
+[2mdist/[22m[35massets/index-DqePUzE2.css  [39m[1m[2m  167.92 kB[22m[1m[22m[2m │ gzip:  29.66 kB[22m
+[2mdist/[22m[36massets/index-DlD39gSO.js   [39m[1m[33m1,081.84 kB[39m[22m[2m │ gzip: 310.23 kB[22m
+[32m✓ built in 14.50s[39m
+
+[2025-11-28T19:30:19.802Z] [d7b9cc03-6ea4-498f-9de1-7844063040ce] 
+../../assets/images/hospital-interior.jpg referenced in ../../assets/images/hospital-interior.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../../assets/images/hospital-building.jpg referenced in ../../assets/images/hospital-building.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+[33m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+
+[2025-11-28T19:30:19.803Z] [d7b9cc03-6ea4-498f-9de1-7844063040ce] Deploying to C:\Users\USER\Desktop\NextVijo\Aether\deployments\8d5d0140-2e86-4059-992a-bfeaa29230c1...
+[2025-11-28T19:30:19.858Z] [d7b9cc03-6ea4-498f-9de1-7844063040ce] Deployment artifacts copied successfully.
+[2025-11-28T19:30:20.032Z] [d7b9cc03-6ea4-498f-9de1-7844063040ce] Build failed: Request failed with status code 403
+[2025-11-28T19:30:24.142Z] Job 6 failed: Request failed with status code 403
+[2025-11-28T19:37:21.723Z] Worker started listening for jobs (v3). Config: 127.0.0.1
+[2025-11-28T19:37:21.758Z] Worker is ready and connected to Redis at 127.0.0.1:6379
+[2025-11-28T19:37:32.884Z] [b12730ac-ad30-4bd5-bdca-ed24ac5b5613] Starting build job...
+[2025-11-28T19:37:32.903Z] [b12730ac-ad30-4bd5-bdca-ed24ac5b5613] Cloning https://github.com/Mwantech/baraakat#main...
+[2025-11-28T19:37:35.564Z] [b12730ac-ad30-4bd5-bdca-ed24ac5b5613] Detected project type: node (vite)
+[2025-11-28T19:37:35.567Z] [b12730ac-ad30-4bd5-bdca-ed24ac5b5613] Installing dependencies for node project...
+[2025-11-28T19:37:35.569Z] [b12730ac-ad30-4bd5-bdca-ed24ac5b5613] Running npm install...
+[2025-11-28T19:38:09.571Z] [b12730ac-ad30-4bd5-bdca-ed24ac5b5613] 
+added 268 packages, and audited 269 packages in 33s
+
+37 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (3 low, 3 moderate, 3 high, 1 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+[2025-11-28T19:38:09.572Z] [b12730ac-ad30-4bd5-bdca-ed24ac5b5613] Building node project...
+[2025-11-28T19:38:09.575Z] [b12730ac-ad30-4bd5-bdca-ed24ac5b5613] Running npm run build...
+[2025-11-28T19:38:30.175Z] [b12730ac-ad30-4bd5-bdca-ed24ac5b5613] 
+> barakaat-hospital-system@0.0.0 build
+> vite build
+
+[36mvite v6.2.0 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 2706 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m    0.47 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
+[2mdist/[22m[35massets/index-DqePUzE2.css  [39m[1m[2m  167.92 kB[22m[1m[22m[2m │ gzip:  29.66 kB[22m
+[2mdist/[22m[36massets/index-DlD39gSO.js   [39m[1m[33m1,081.84 kB[39m[22m[2m │ gzip: 310.23 kB[22m
+[32m✓ built in 18.86s[39m
+
+[2025-11-28T19:38:30.181Z] [b12730ac-ad30-4bd5-bdca-ed24ac5b5613] 
+../../assets/images/hospital-building.jpg referenced in ../../assets/images/hospital-building.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../../assets/images/hospital-interior.jpg referenced in ../../assets/images/hospital-interior.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+[33m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+
+[2025-11-28T19:38:30.183Z] [b12730ac-ad30-4bd5-bdca-ed24ac5b5613] Deploying to C:\Users\USER\Desktop\NextVijo\Aether\deployments\8d5d0140-2e86-4059-992a-bfeaa29230c1...
+[2025-11-28T19:38:30.231Z] [b12730ac-ad30-4bd5-bdca-ed24ac5b5613] Deployment artifacts copied successfully.
+[2025-11-28T19:39:59.349Z] Worker started listening for jobs (v3). Config: 127.0.0.1
+[2025-11-28T19:39:59.429Z] Worker is ready and connected to Redis at 127.0.0.1:6379
+[2025-11-28T19:40:02.400Z] Worker started listening for jobs (v3). Config: 127.0.0.1
+[2025-11-28T19:40:02.451Z] Worker is ready and connected to Redis at 127.0.0.1:6379
+[2025-11-28T19:46:38.751Z] Worker started listening for jobs (v3). Config: 127.0.0.1
+[2025-11-28T19:46:38.792Z] Worker is ready and connected to Redis at 127.0.0.1:6379
+[2025-11-28T20:06:06.790Z] [bb0cc097-3747-4f84-ac47-bbeedf9cd469] Starting build job...
+[2025-11-28T20:06:06.885Z] [bb0cc097-3747-4f84-ac47-bbeedf9cd469] Cloning https://github.com/Mwantech/baraakat#main...
+[2025-11-28T20:08:52.002Z] [bb0cc097-3747-4f84-ac47-bbeedf9cd469] Build failed: Cloning into 'C:\Users\USER\AppData\Local\Temp\build-bb0cc097-3747-4f84-ac47-bbeedf9cd469'...
+error: RPC failed; curl 18 transfer closed with outstanding read data remaining
+error: 5956 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+
+[2025-11-28T20:11:40.522Z] Worker started listening for jobs (v3). Config: 127.0.0.1
+[2025-11-28T20:11:40.568Z] Worker is ready and connected to Redis at 127.0.0.1:6379
+[2025-11-28T20:11:52.854Z] [bb8efce6-d07f-4828-99af-c0238c0e886c] Starting build job...
+[2025-11-28T20:11:52.878Z] [bb8efce6-d07f-4828-99af-c0238c0e886c] Cloning https://github.com/Mwantech/baraakat#main...
+[2025-11-28T20:12:44.141Z] [bb8efce6-d07f-4828-99af-c0238c0e886c] Detected project type: node (vite)
+[2025-11-28T20:12:44.147Z] [bb8efce6-d07f-4828-99af-c0238c0e886c] Installing dependencies for node project...
+[2025-11-28T20:12:44.151Z] [bb8efce6-d07f-4828-99af-c0238c0e886c] Running npm install...
+[2025-11-28T20:13:24.124Z] [bb8efce6-d07f-4828-99af-c0238c0e886c] 
+added 268 packages in 39s
+
+37 packages are looking for funding
+  run `npm fund` for details
+
+[2025-11-28T20:13:24.124Z] [bb8efce6-d07f-4828-99af-c0238c0e886c] Building node project...
+[2025-11-28T20:13:24.127Z] [bb8efce6-d07f-4828-99af-c0238c0e886c] Running npm run build...
+[2025-11-28T20:13:42.587Z] [bb8efce6-d07f-4828-99af-c0238c0e886c] 
+> barakaat-hospital-system@0.0.0 build
+> vite build
+
+[36mvite v6.2.0 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 2706 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m    0.47 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
+[2mdist/[22m[35massets/index-DqePUzE2.css  [39m[1m[2m  167.92 kB[22m[1m[22m[2m │ gzip:  29.66 kB[22m
+[2mdist/[22m[36massets/index-DlD39gSO.js   [39m[1m[33m1,081.84 kB[39m[22m[2m │ gzip: 310.23 kB[22m
+[32m✓ built in 16.39s[39m
+
+[2025-11-28T20:13:42.588Z] [bb8efce6-d07f-4828-99af-c0238c0e886c] 
+../../assets/images/hospital-building.jpg referenced in ../../assets/images/hospital-building.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../../assets/images/hospital-interior.jpg referenced in ../../assets/images/hospital-interior.jpg didn't resolve at build time, it will remain unchanged to be resolved at runtime
+[33m
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
+
+[2025-11-28T20:13:42.590Z] [bb8efce6-d07f-4828-99af-c0238c0e886c] Deploying to C:\Users\USER\Desktop\NextVijo\Aether\deployments\8d5d0140-2e86-4059-992a-bfeaa29230c1...
+[2025-11-28T20:13:42.626Z] [bb8efce6-d07f-4828-99af-c0238c0e886c] Deployment artifacts copied successfully.
+[2025-11-28T20:32:06.949Z] [518c0d28-52fd-4538-9ef9-7282fded5ffe] Starting build job...
+[2025-11-28T20:32:07.003Z] [518c0d28-52fd-4538-9ef9-7282fded5ffe] Cloning https://github.com/Mwantech/Challenge_zone#main...
+[2025-11-28T20:32:30.225Z] [518c0d28-52fd-4538-9ef9-7282fded5ffe] Detected project type: unknown (generic)
+[2025-11-28T20:32:30.229Z] [518c0d28-52fd-4538-9ef9-7282fded5ffe] Installing dependencies for unknown project...
+[2025-11-28T20:32:30.229Z] [518c0d28-52fd-4538-9ef9-7282fded5ffe] No dependencies to install for this project type.
+[2025-11-28T20:32:30.230Z] [518c0d28-52fd-4538-9ef9-7282fded5ffe] Building unknown project...
+[2025-11-28T20:32:30.235Z] [518c0d28-52fd-4538-9ef9-7282fded5ffe] Deploying to C:\Users\USER\Desktop\NextVijo\Aether\deployments\87d95ae4-5882-45c5-a95a-8cf0cddff657...
+[2025-11-28T20:32:30.596Z] [518c0d28-52fd-4538-9ef9-7282fded5ffe] Deployment artifacts copied successfully.
+[2025-11-28T20:34:13.655Z] [f368fa60-6fc1-4044-84d9-6de506419556] Starting build job...
+[2025-11-28T20:34:13.673Z] [f368fa60-6fc1-4044-84d9-6de506419556] Cloning https://github.com/Mwantech/derricks-website#main...
+[2025-11-28T20:34:51.946Z] [f368fa60-6fc1-4044-84d9-6de506419556] Detected project type: static (generic)
+[2025-11-28T20:34:51.950Z] [f368fa60-6fc1-4044-84d9-6de506419556] Installing dependencies for static project...
+[2025-11-28T20:34:51.951Z] [f368fa60-6fc1-4044-84d9-6de506419556] No dependencies to install for this project type.
+[2025-11-28T20:34:51.952Z] [f368fa60-6fc1-4044-84d9-6de506419556] Building static project...
+[2025-11-28T20:34:51.953Z] [f368fa60-6fc1-4044-84d9-6de506419556] Deploying to C:\Users\USER\Desktop\NextVijo\Aether\deployments\42270da8-19c6-4f35-8417-01e24f69d1d2...
+[2025-11-28T20:34:52.028Z] [f368fa60-6fc1-4044-84d9-6de506419556] Deployment artifacts copied successfully.
+[2025-11-28T20:52:22.745Z] Worker started listening for jobs (v3). Config: 127.0.0.1
+[2025-11-28T20:52:22.808Z] Worker is ready and connected to Redis at 127.0.0.1:6379
+[2025-11-28T20:52:26.609Z] Worker started listening for jobs (v3). Config: 127.0.0.1
+[2025-11-28T20:52:26.674Z] Worker is ready and connected to Redis at 127.0.0.1:6379
+[2025-11-28T21:40:45.799Z] Worker started listening for jobs (v3). Config: 127.0.0.1
+[2025-11-28T21:40:46.160Z] Worker is ready and connected to Redis at 127.0.0.1:6379

@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0B1F3F;
+  --color-accent: #7C3AED;
+  --color-secondary: #06B6D4;
+
+  --color-background: #0F172A;
+  /* Default Dark Mode Base */
+  --color-background-light: #F8FAFC;
+
+  --color-surface: #1E293B;
+  /* Slightly lighter than background for cards */
+
+  --color-text: #F8FAFC;
+  /* Light text for dark mode */
+  --color-text-dark: #1E293B;
+  /* Dark text for light mode areas */
+  --color-text-muted: #94A3B8;
+
+  --color-error: #EF4444;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+
+  --font-sans: Inter, sans-serif;
+
+  --radius-xl: 0.75rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text antialiased;
+  }
+}

@@ -1,0 +1,55 @@
+// apps/api/prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  projects  Project[]
+}
+
+model Project {
+  id          String       @id @default(uuid())
+  name        String
+  repoUrl     String
+  branch      String       @default("main")
+  rootDir     String?      @default("/")
+  runtime     String?      // node, python, docker, static
+  buildCommand String?
+  installCommand String?
+  outputDir   String?
+  domain      String?
+  envVars     Json?        // Stored as key-value pairs
+  status      String       @default("ACTIVE") // ACTIVE, SUSPENDED
+  userId      String
+  user        User         @relation(fields: [userId], references: [id])
+  deployments Deployment[]
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+}
+
+model Deployment {
+  id          String   @id @default(uuid())
+  projectId   String
+  project     Project  @relation(fields: [projectId], references: [id])
+  status      String   // QUEUED, BUILDING, DEPLOYING, READY, FAILED
+  commitHash  String?
+  logs        String?  // Could be large, maybe store in file/S3 in real prod
+  imageUrl    String?  // Kept for Docker builds
+  previewUrl  String?
+  buildTime   Int?     // in milliseconds
+  outputSize  Int?     // in bytes
+  entryFile   String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
